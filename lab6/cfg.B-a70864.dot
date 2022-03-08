@@ -1,0 +1,5 @@
+digraph "CFG for 'B' function" {
+	label="CFG for 'B' function";
+
+	Node0x13163ea80 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{%0:\l  ret void\l}"];
+}

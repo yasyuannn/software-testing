@@ -1,0 +1,13 @@
+digraph "Call graph: lab_6.ll" {
+	label="Call graph: lab_6.ll";
+
+	Node0x124f21a80 [shape=record,label="{A}"];
+	Node0x124f21b10 [shape=record,label="{B}"];
+	Node0x124f21b90 [shape=record,label="{C}"];
+	Node0x124f21c90 [shape=record,label="{main}"];
+	Node0x124f21c90 -> Node0x124f21a80;
+	Node0x124f21c90 -> Node0x124f21d20;
+	Node0x124f21c90 -> Node0x124f21b10;
+	Node0x124f21c90 -> Node0x124f21b90;
+	Node0x124f21d20 [shape=record,label="{printf}"];
+}
